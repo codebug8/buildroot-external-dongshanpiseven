@@ -18,8 +18,8 @@ jobs:
       
       - uses: actions/checkout@v2
         with:
-          repository: DongshanPI/Buildroot-ST
-          ref: master
+          repository: buildroot/buildroot
+          ref: 2020.08
           path: buildroot
           
       - name: Install buildroot dependencies
